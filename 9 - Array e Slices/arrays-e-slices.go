@@ -19,4 +19,8 @@ func main() {
 
 	slice2 := slice[1:3]
 	fmt.Println(slice2)
+
+	slice3 := make([]float32, 10, 11)
+	fmt.Println(slice3)
+
 }
